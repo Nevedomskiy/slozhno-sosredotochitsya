@@ -1,4 +1,7 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --accent-title-color: #ff8dcb;
+  --background-color: #fff1f7;
+}

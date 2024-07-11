@@ -1,0 +1,8 @@
+.header {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  display: grid;
+  grid-template-rows: 319px 244px 205px;
+  grid-auto-columns: min-content;
+}
