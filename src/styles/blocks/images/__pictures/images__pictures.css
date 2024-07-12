@@ -1,0 +1,21 @@
+.images__pictures {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  grid-template-rows: 260px 315px 428px;
+  grid-template-columns: repeat(3, minmax(30%, 477px));
+}
+
+@media (max-width: 767px) {
+  .images__pictures {
+    gap: 10px;
+    grid-template-rows: 142px 355px 237px 355px 237px;
+    grid-template-columns: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .images__pictures {
+    grid-template-rows: 192px 230px 318px;
+  }
+}

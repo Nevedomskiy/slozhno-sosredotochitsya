@@ -1,3 +1,53 @@
 .footer {
+  padding: 20px;
   width: 100%;
+  min-height: 768px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  right: 20px;
+  background: var(--upper-corner) center / cover no-repeat;
+  z-index: 2;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 20px;
+  left: 20px;
+  background: var(--bottom-corner) center / cover no-repeat;
+  z-index: 2;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    min-height: 1024px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 10px;
+    min-height: 668px;
+  }
+  .footer::after {
+    top: 10px;
+    right: 10px;
+  }
+
+  .footer::before {
+    bottom: 10px;
+    left: 10px;
+  }
 }

@@ -1,0 +1,4 @@
+.header__subtitle {
+  display: flex;
+  justify-content: end;
+}

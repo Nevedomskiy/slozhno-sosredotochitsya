@@ -3,6 +3,56 @@
   padding: 20px;
   position: relative;
   display: grid;
-  grid-template-rows: 319px 244px 205px;
-  grid-auto-columns: min-content;
+  grid-template-rows: 300px 244px 184px;
+  background-image: var(--background-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  right: 20px;
+  background: var(--upper-corner) center / cover no-repeat;
+  z-index: 2;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 20px;
+  left: 20px;
+  background: var(--bottom-corner) center / cover no-repeat;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .header {
+    grid-template-rows: 230px 192px 226px;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+
+  .header::after {
+    top: 10px;
+    right: 10px;
+  }
+
+  .header::before {
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    grid-template-rows: 445px 261px 278px;
+  }
 }

@@ -1,0 +1,11 @@
+.concentration__header {
+  font-weight: 700;
+  width: calc(328 / 1024 * 100%);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .concentration__header {
+    width: 100%;
+  }
+}

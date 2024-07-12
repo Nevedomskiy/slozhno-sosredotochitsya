@@ -1,0 +1,16 @@
+.header__theme-menu-button {
+  background-color: transparent;
+  line-height: 18px;
+  padding: 1.5px 13px;
+  text-transform: lowercase;
+  border: 1px solid var(--background-color);
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--switch-color);
+}
+
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  border-bottom: 1px solid var(--switch-color);
+}

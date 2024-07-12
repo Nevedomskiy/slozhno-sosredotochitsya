@@ -1,0 +1,12 @@
+.images__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .images__title {
+    margin-bottom: 10px;
+  }
+}

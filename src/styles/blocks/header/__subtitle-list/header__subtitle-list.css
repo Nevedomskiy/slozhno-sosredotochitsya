@@ -1,0 +1,12 @@
+.header__subtitle-list {
+  width: 50%;
+  background-color: var(--title-color);
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .header__subtitle-list {
+    width: 100%;
+    align-self: center;
+  }
+}

@@ -1,0 +1,11 @@
+.concentration__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 769px) {
+  .concentration__items {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,19 @@
+.header__theme-menu {
+  display: flex;
+  justify-content: center;
+  color: var(--switch-color);
+}
+
+@media (max-width: 767px) {
+  .header__theme-menu {
+    justify-content: flex-end;
+    margin-top: 65px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header__theme-menu {
+    justify-content: flex-end;
+    margin-top: 172px;
+  }
+}

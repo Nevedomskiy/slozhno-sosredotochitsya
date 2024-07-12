@@ -9,4 +9,27 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --switch-color: #ff0070;
+  --header-color: #db00ff;
+  --accent-color: #ff0070;
+  --title-color: #000028;
+  --text-color: #f1b2ce;
+  --background-color: #000028;
+  --background-image: url(../../../images/cover-image-dark.png);
+  --upper-corner: url(../../../images/RectangleDarkU.png);
+  --bottom-corner: url(../../../images/RectangleDarkB.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  .page.theme_auto {
+    --switch-color: #ff0070;
+    --header-color: #db00ff;
+    --accent-color: #ff0070;
+    --title-color: #000028;
+    --text-color: #f1b2ce;
+    --background-color: #000028;
+    --background-image: url(../../../images/cover-image-dark.png);
+    --upper-corner: url(../../../images/RectangleDarkU.png);
+    --bottom-corner: url(../../../images/RectangleDarkB.png);
+  }
 }

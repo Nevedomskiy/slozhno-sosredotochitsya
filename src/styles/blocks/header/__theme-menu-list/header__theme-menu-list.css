@@ -1,0 +1,11 @@
+.header__theme-menu-list {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 1023px) {
+  .header__theme-menu-list {
+    flex-direction: column;
+    gap: 11.5px;
+  }
+}

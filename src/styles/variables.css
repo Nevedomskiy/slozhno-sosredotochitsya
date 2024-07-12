@@ -1,7 +1,12 @@
 :root {
-  --text-color: #353430;
+  --switch-color: #353430;
+  --header-color: #ffc2e6;
+  --header-accent-color: #ff0070;
   --accent-color: #ff8dcb;
-  --title-color: #ffc2e6;
-  --accent-title-color: #ff8dcb;
+  --title-color: #353430;
+  --text-color: #353430;
   --background-color: #fff1f7;
+  --background-image: url(../../../images/cover-image-light.png);
+  --upper-corner: url(../../../images/Rectangle77.png);
+  --bottom-corner: url(../../../images/Rectangle79.png);
 }

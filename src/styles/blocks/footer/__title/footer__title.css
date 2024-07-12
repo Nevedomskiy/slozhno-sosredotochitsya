@@ -1,4 +1,4 @@
-.header__title {
+.footer__title {
   font-size: 157px;
   font-weight: 700;
   line-height: 129.53px;
@@ -6,19 +6,20 @@
   margin-inline-start: -20px;
   position: relative;
   text-shadow: 4px 4px 0 #ff0070;
+  margin-left: 3px;
 }
 
 @media (max-width: 767px) {
-  .header__title {
+  .footer__title {
+    margin-left: 0;
     font-size: 116px;
     font-weight: 700;
     line-height: 95.7px;
-    margin-inline-start: 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .header__title {
+  .footer__title {
     font-size: 120px;
     font-weight: 700;
     line-height: 99px;

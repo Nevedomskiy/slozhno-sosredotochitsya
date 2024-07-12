@@ -1,0 +1,13 @@
+.main__better {
+  display: grid;
+  grid-template-columns: calc(328 / 1024 * 100%) calc(675 / 1024 * 100%);
+  gap: 20px;
+  padding: 0 20px 80px;
+}
+
+@media (max-width: 767px) {
+  .main__better {
+    grid-template-columns: 100%;
+    padding: 0 10px 50px;
+  }
+}
